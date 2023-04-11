@@ -1,16 +1,4 @@
-* {
-    font-family: 'Figtree', sans-serif;
-}
-
-
-.banner-image {
-    background-image: url(../imagines/fondo\ menu2.jpg) ;
-    background-size: cover;
-    height: 50vph;
-    background-position:center ;
-    background-repeat: no-repeat;
-  }
-  .float{
+.float{
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -33,8 +21,3 @@
 .my-float{
 	margin-top:16px;
 }
-
-facebook{
-    color: brown;
-}
- 
