@@ -1,9 +1,3 @@
-.imagenfondo{
-    background-size: cover;
-    height: 15vph;
-    background-position:center ;
-    background-repeat: no-repeat;
-  }
 
   .card {
     border: none;
@@ -29,5 +23,20 @@
         background-size: cover;
         background-position: center center;
         height: 100vh;}
+        
+        .imagenfondo{ height: 70%;
+          background-size: cover;
+          background-position: center center;
+          height: calc(100vh - 80px);}
    
+        @media (max-width: 767px) {
+          
+          
+      }
+      
+      /* Estilo para dispositivos de escritorio */
+      @media (min-width: 768px) {
+        img-fluid{font-weight: ;}
+          /* Agrega aquí tus estilos para desktop */
+      }
 
