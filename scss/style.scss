@@ -24,11 +24,16 @@
         background-position: center center;
         height: 100vh;}
         
-        .header{ height: 70%;
+        .header:hover{ height: 70%;
          
           background-size: cover;
           background-position: center center;
-          height: calc(100vh - 80px);}
+          height: calc(100vh - 80px);
+        color: burlywood;}
+          
+          
+
+          
    
         @media (max-width: 767px) {
           
@@ -36,5 +41,5 @@
       }
       
       /* Estilo para dispositivos de escritorio */
-      @media (min-width: 768px) 
+      @media (min-width: 768px) { }
         

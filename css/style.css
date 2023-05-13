@@ -26,4 +26,13 @@ form label {
   font-weight: bold;
 }
 
+.prueba {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header:hover{color: burlywood;}
+
 /*# sourceMappingURL=style.css.map */
